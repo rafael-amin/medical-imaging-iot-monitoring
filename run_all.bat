@@ -1,0 +1,6 @@
+start cmd /k "cd /d D:\My new job project\smart remote monitorinfg\medical_monitor && python simulated_plc.py --node ct --port 5020"
+start cmd /k "cd /d D:\My new job project\smart remote monitorinfg\medical_monitor && python simulated_plc.py --node dr --port 5021"
+start cmd /k "cd /d D:\My new job project\smart remote monitorinfg\medical_monitor && python simulated_plc.py --node ups --port 5022"
+start cmd /k "cd /d D:\My new job project\smart remote monitorinfg\medical_monitor && python simulated_plc.py --node env --port 5023"
+start cmd /k "cd /d D:\My new job project\smart remote monitorinfg\medical_monitor && python mri_plc.py --port 5025"
+start cmd /k "cd /d D:\My new job project\smart remote monitorinfg\medical_monitor && python energy_meter_plc.py --port 5024"
